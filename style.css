@@ -1,0 +1,159 @@
+/* defult css */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*end defult css */
+
+/* header  */
+
+.full-website{
+    width: 1270px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+	background: #34495e;
+    padding: 74px 0px;
+ 
+}
+
+.header ul{
+    text-align: center;
+    list-style: none;
+}
+.header ul li{
+    display:inline-block;
+  
+
+}
+.header ul li a {
+    color: #34495e;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px;
+    background: #e57e22;
+    margin-left: 28px;
+    border: 1px solid transparent;
+    transition: .4s;
+   
+}
+
+
+.header ul li a:hover{
+    color: #fff;
+    background: crimson;
+    border: 1px solid #000 ;
+    border-radius: 3px;
+    border-top: 1px solid green;
+    transition:  .4s;
+}
+
+
+/*  End header  */
+
+/* baner  */
+
+.baner{
+
+    background:url(./stylish-hexagonal-line-pattern-background-1017-19742.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 60px;
+  
+
+}
+
+.baner a {
+	padding: 11px 20px;
+	text-decoration: none;
+	color: #fff;
+	background: #dc3545;
+	line-height: 59px;
+	border-radius: 5px;
+}
+
+
+.baner a:hover{
+    color:rgb(105, 95, 95);
+    background: crimson;
+    border: 1px solid #000 ;
+    border-radius: 3px;
+    border: 1px solid green;
+    transition:  .4s;
+}
+.baner p {
+	padding: 10px;
+}
+/*End baner  */
+
+/* content */
+
+.content{
+    background: #d35400;
+    padding: 75px;
+}
+.content ul{
+    margin-top: 39px;
+
+}
+.content ul li{
+    display: inline-block;
+    margin: 0 21px;
+}
+.content ul li a{
+    padding: 12px 12px;
+    text-decoration: none;
+    color: #34495e;
+    border: 1px solid transparent;
+    transition:  .4s;
+
+
+}
+.content ul li a:hover{
+    color: #fff;
+    background: crimson;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    border-top: 1px solid green;
+    transition:  .4s;
+}
+/*End content */
+
+/* footer  */
+.footer-bottom {
+	background: #2c3e50;
+	padding: 30px;
+}
+.footer-bottom h3 {
+	margin-top: 38px;
+	color: #fff;
+}
+.footer-bottom ul li{
+    display: inline-block;
+    margin: 0 21px;
+}
+.footer-bottom ul li a{
+    color: #34495e;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px;
+    background: #e57e22;
+    margin-left: 28px;
+    border: 1px solid transparent;
+    transition: .4s;
+
+
+}
+.footer-bottom ul li a:hover{
+    color: #fff;
+    background: crimson;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    border: 1px solid green;
+    transition:  .4s;
+}
+
+/*End footer  */
